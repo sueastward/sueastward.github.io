@@ -1,0 +1,16 @@
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="/assets/stylesheets/gitalk/gitalk.css">
+<script src="/assets/javascripts/gitalk/gitalk.min.js"></script>
+<script src="/assets/javascripts/gitalk/md5.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '5f713287dde5bd8948c6',
+        clientSecret: '0d811dc7c63e2c80f685556eb33690d9621fcf71',
+        repo: 'sueastward.github.io',
+        owner: 'sueastward',
+        admin: 'sueastward',
+        id: md5(location.pathname),
+        pagerDirection: 'first'
+    })
+    gitalk.render('gitalk-container')
+</script>

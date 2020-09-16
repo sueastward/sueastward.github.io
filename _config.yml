@@ -1,0 +1,19 @@
+title: xdlogs
+author: sueastward
+email: sueastward@outlook.com
+url: "https://xdlogs.com"
+github_username: sueastward
+
+header_pages:
+  - header/posts.md
+  - header/archives.md
+  - header/about.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+
+google_analytics: true
+
+gitalk: true
